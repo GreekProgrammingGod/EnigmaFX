@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import java.util.ArrayList?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainSceneController">
+   <children>
+      <Button layoutX="469.0" layoutY="316.0" mnemonicParsing="false" onAction="#actionConfigurerRotor" text="Configurer Rotors" />
+      <Button layoutX="295.0" layoutY="505.0" mnemonicParsing="false" onAction="#btnEtapeSuivanteCliquee" prefHeight="26.0" prefWidth="110.0" text="Étape suivante" />
+      <GridPane id="gridRotor1" fx:id="gridRotor1" gridLinesVisible="true" layoutX="27.0" layoutY="180.0" prefHeight="40.0" prefWidth="600.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="r1LabelC00R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC01R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC02R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC03R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC04R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC05R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC06R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC07R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC08R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC09R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC10R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC11R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC12R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC13R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC14R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC15R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC16R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC17R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC18R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC19R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="19" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC20R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="20" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC21R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="21" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC22R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="22" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC23R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="23" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC24R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="24" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC25R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="25" GridPane.rowIndex="0" />
+            <Label fx:id="r1LabelC00R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC01R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC02R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC03R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC04R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC05R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC06R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC07R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC08R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC09R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC10R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC11R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC12R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC13R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC14R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC15R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC16R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC17R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC18R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC19R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="19" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC20R1" alignment="CENTER" prefHeight="20.0" prefWidth="54.0" textAlignment="CENTER" GridPane.columnIndex="20" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC21R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="21" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC22R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="22" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC23R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="23" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC24R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="24" GridPane.rowIndex="1" />
+            <Label fx:id="r1LabelC25R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="25" GridPane.rowIndex="1" />
+
+            <fx:define>
+               <ArrayList fx:id="rotor1List">
+                  <fx:reference source="r1LabelC00R0" />
+                  <fx:reference source="r1LabelC01R0" />
+                  <fx:reference source="r1LabelC02R0" />
+                  <fx:reference source="r1LabelC03R0" />
+                  <fx:reference source="r1LabelC04R0" />
+                  <fx:reference source="r1LabelC05R0" />
+                  <fx:reference source="r1LabelC06R0" />
+                  <fx:reference source="r1LabelC07R0" />
+                  <fx:reference source="r1LabelC08R0" />
+                  <fx:reference source="r1LabelC09R0" />
+                  <fx:reference source="r1LabelC10R0" />
+                  <fx:reference source="r1LabelC11R0" />
+                  <fx:reference source="r1LabelC12R0" />
+                  <fx:reference source="r1LabelC13R0" />
+                  <fx:reference source="r1LabelC14R0" />
+                  <fx:reference source="r1LabelC15R0" />
+                  <fx:reference source="r1LabelC16R0" />
+                  <fx:reference source="r1LabelC17R0" />
+                  <fx:reference source="r1LabelC18R0" />
+                  <fx:reference source="r1LabelC19R0" />
+                  <fx:reference source="r1LabelC20R0" />
+                  <fx:reference source="r1LabelC21R0" />
+                  <fx:reference source="r1LabelC22R0" />
+                  <fx:reference source="r1LabelC23R0" />
+                  <fx:reference source="r1LabelC24R0" />
+                  <fx:reference source="r1LabelC25R0" />
+
+                  <fx:reference source="r1LabelC00R1" />
+                  <fx:reference source="r1LabelC01R1" />
+                  <fx:reference source="r1LabelC02R1" />
+                  <fx:reference source="r1LabelC03R1" />
+                  <fx:reference source="r1LabelC04R1" />
+                  <fx:reference source="r1LabelC05R1" />
+                  <fx:reference source="r1LabelC06R1" />
+                  <fx:reference source="r1LabelC07R1" />
+                  <fx:reference source="r1LabelC08R1" />
+                  <fx:reference source="r1LabelC09R1" />
+                  <fx:reference source="r1LabelC10R1" />
+                  <fx:reference source="r1LabelC11R1" />
+                  <fx:reference source="r1LabelC12R1" />
+                  <fx:reference source="r1LabelC13R1" />
+                  <fx:reference source="r1LabelC14R1" />
+                  <fx:reference source="r1LabelC15R1" />
+                  <fx:reference source="r1LabelC16R1" />
+                  <fx:reference source="r1LabelC17R1" />
+                  <fx:reference source="r1LabelC18R1" />
+                  <fx:reference source="r1LabelC19R1" />
+                  <fx:reference source="r1LabelC20R1" />
+                  <fx:reference source="r1LabelC21R1" />
+                  <fx:reference source="r1LabelC22R1" />
+                  <fx:reference source="r1LabelC23R1" />
+                  <fx:reference source="r1LabelC24R1" />
+                  <fx:reference source="r1LabelC25R1" />
+               </ArrayList>
+            </fx:define>
+         </children>
+      </GridPane>
+      <TextField id="encryptionTextField" fx:id="encryptionTextField" layoutX="40.0" layoutY="436.0" prefHeight="58.0" prefWidth="652.0" promptText="Zone de texte à encrypter" />
+      <TextField fx:id="decryptionTextField" layoutX="40.0" layoutY="540.0" prefHeight="58.0" prefWidth="652.0" promptText="Zone de texte à décrypter" />
+      <GridPane id="gridReflecteur" fx:id="gridReflecteur" gridLinesVisible="true" layoutX="27.0" layoutY="20.0" prefHeight="20.0" prefWidth="600.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="reflecteurLabelC00R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC01R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC02R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC03R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC04R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC05R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC06R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC07R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC08R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC09R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC10R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC11R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC12R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC13R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC14R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC15R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC16R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC17R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC18R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC19R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="19" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC20R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="20" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC21R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="21" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC22R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="22" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC23R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="23" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC24R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="24" GridPane.rowIndex="0" />
+            <Label fx:id="reflecteurLabelC25R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" textAlignment="CENTER" GridPane.columnIndex="25" GridPane.rowIndex="0" />
+            <fx:define>
+               <ArrayList fx:id="rotorReflecteurList">
+                  <fx:reference source="reflecteurLabelC00R0" />
+                  <fx:reference source="reflecteurLabelC01R0" />
+                  <fx:reference source="reflecteurLabelC02R0" />
+                  <fx:reference source="reflecteurLabelC03R0" />
+                  <fx:reference source="reflecteurLabelC04R0" />
+                  <fx:reference source="reflecteurLabelC05R0" />
+                  <fx:reference source="reflecteurLabelC06R0" />
+                  <fx:reference source="reflecteurLabelC07R0" />
+                  <fx:reference source="reflecteurLabelC08R0" />
+                  <fx:reference source="reflecteurLabelC09R0" />
+                  <fx:reference source="reflecteurLabelC10R0" />
+                  <fx:reference source="reflecteurLabelC11R0" />
+                  <fx:reference source="reflecteurLabelC12R0" />
+                  <fx:reference source="reflecteurLabelC13R0" />
+                  <fx:reference source="reflecteurLabelC14R0" />
+                  <fx:reference source="reflecteurLabelC15R0" />
+                  <fx:reference source="reflecteurLabelC16R0" />
+                  <fx:reference source="reflecteurLabelC17R0" />
+                  <fx:reference source="reflecteurLabelC18R0" />
+                  <fx:reference source="reflecteurLabelC19R0" />
+                  <fx:reference source="reflecteurLabelC20R0" />
+                  <fx:reference source="reflecteurLabelC21R0" />
+                  <fx:reference source="reflecteurLabelC22R0" />
+                  <fx:reference source="reflecteurLabelC23R0" />
+                  <fx:reference source="reflecteurLabelC24R0" />
+                  <fx:reference source="reflecteurLabelC25R0" />
+               </ArrayList>
+            </fx:define>
+         </children>
+      </GridPane>
+      <GridPane id="gridAlphabet" fx:id="gridAlphabet" gridLinesVisible="true" layoutX="27.0" layoutY="240.0" prefHeight="20.0" prefWidth="600.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="alphabetLabelC00R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="A" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC01R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="B" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC02R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="C" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC03R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="D" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC04R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="E" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC05R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="F" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC06R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="G" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC07R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="H" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC08R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="I" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC09R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="J" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC10R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="K" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC11R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="L" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC12R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="M" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC13R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="N" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC14R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="O" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC15R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="P" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC16R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="Q" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC17R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="R" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC18R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="S" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC19R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="T" textAlignment="CENTER" GridPane.columnIndex="19" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC20R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="U" textAlignment="CENTER" GridPane.columnIndex="20" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC21R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="V" textAlignment="CENTER" GridPane.columnIndex="21" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC22R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="W" textAlignment="CENTER" GridPane.columnIndex="22" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC23R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="X" textAlignment="CENTER" GridPane.columnIndex="23" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC24R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="Y" textAlignment="CENTER" GridPane.columnIndex="24" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <Label fx:id="alphabetLabelC25R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="Z" textAlignment="CENTER" GridPane.columnIndex="25">
+               <font>
+                  <Font name="Century" size="12.0" />
+               </font></Label>
+            <fx:define>
+               <ArrayList fx:id="alphabetLabelList">
+                  <fx:reference source="alphabetLabelC00R0" />
+                  <fx:reference source="alphabetLabelC01R0" />
+                  <fx:reference source="alphabetLabelC02R0" />
+                  <fx:reference source="alphabetLabelC03R0" />
+                  <fx:reference source="alphabetLabelC04R0" />
+                  <fx:reference source="alphabetLabelC05R0" />
+                  <fx:reference source="alphabetLabelC06R0" />
+                  <fx:reference source="alphabetLabelC07R0" />
+                  <fx:reference source="alphabetLabelC08R0" />
+                  <fx:reference source="alphabetLabelC09R0" />
+                  <fx:reference source="alphabetLabelC10R0" />
+                  <fx:reference source="alphabetLabelC11R0" />
+                  <fx:reference source="alphabetLabelC12R0" />
+                  <fx:reference source="alphabetLabelC13R0" />
+                  <fx:reference source="alphabetLabelC14R0" />
+                  <fx:reference source="alphabetLabelC15R0" />
+                  <fx:reference source="alphabetLabelC16R0" />
+                  <fx:reference source="alphabetLabelC17R0" />
+                  <fx:reference source="alphabetLabelC18R0" />
+                  <fx:reference source="alphabetLabelC19R0" />
+                  <fx:reference source="alphabetLabelC20R0" />
+                  <fx:reference source="alphabetLabelC21R0" />
+                  <fx:reference source="alphabetLabelC22R0" />
+                  <fx:reference source="alphabetLabelC23R0" />
+                  <fx:reference source="alphabetLabelC24R0" />
+                  <fx:reference source="alphabetLabelC25R0" />
+               </ArrayList>
+            </fx:define>
+         </children>
+      </GridPane>
+      <Label fx:id="labelReflecteur" layoutX="655.0" layoutY="20.0" prefHeight="20.0" prefWidth="62.0" text="Réflecteur">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label fx:id="labelRotor2" layoutX="655.0" layoutY="130.0" prefHeight="20.0" prefWidth="54.0" text="Rotor 2">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label fx:id="labelRotor3" layoutX="655.0" layoutY="70.0" prefHeight="20.0" prefWidth="54.0" text="Rotor 3">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Separator id="seperator1" fx:id="seperator1" layoutX="7.0" layoutY="272.0" prefHeight="10.0" prefWidth="717.0" />
+      <Separator id="seperator2" fx:id="seperator2" layoutX="7.0" layoutY="277.0" prefHeight="10.0" prefWidth="717.0" />
+      <GridPane id="gridRotor2" fx:id="gridRotor2" gridLinesVisible="true" layoutX="27.0" layoutY="120.0" prefHeight="40.0" prefWidth="600.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="r2LabelC00R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC01R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC02R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC03R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC04R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC05R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC06R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC07R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC08R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC09R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC10R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC11R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC12R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC13R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC14R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC15R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC16R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC17R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC18R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC19R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="19" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC20R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="20" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC21R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="21" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC22R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="22" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC23R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="23" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC24R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="24" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC25R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="25" GridPane.rowIndex="0" />
+            <Label fx:id="r2LabelC00R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC01R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC02R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC03R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC04R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC05R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC06R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC07R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC08R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC09R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC10R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC11R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC12R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC13R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC14R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC15R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC16R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC17R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC18R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC19R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="19" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC20R1" alignment="CENTER" prefHeight="20.0" prefWidth="54.0" text="" textAlignment="CENTER" GridPane.columnIndex="20" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC21R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="21" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC22R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="22" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC23R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="23" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC24R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="24" GridPane.rowIndex="1" />
+            <Label fx:id="r2LabelC25R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="25" GridPane.rowIndex="1" />
+
+            <fx:define>
+               <ArrayList fx:id="rotor2List">
+                  <fx:reference source="r2LabelC00R0" />
+                  <fx:reference source="r2LabelC01R0" />
+                  <fx:reference source="r2LabelC02R0" />
+                  <fx:reference source="r2LabelC03R0" />
+                  <fx:reference source="r2LabelC04R0" />
+                  <fx:reference source="r2LabelC05R0" />
+                  <fx:reference source="r2LabelC06R0" />
+                  <fx:reference source="r2LabelC07R0" />
+                  <fx:reference source="r2LabelC08R0" />
+                  <fx:reference source="r2LabelC09R0" />
+                  <fx:reference source="r2LabelC10R0" />
+                  <fx:reference source="r2LabelC11R0" />
+                  <fx:reference source="r2LabelC12R0" />
+                  <fx:reference source="r2LabelC13R0" />
+                  <fx:reference source="r2LabelC14R0" />
+                  <fx:reference source="r2LabelC15R0" />
+                  <fx:reference source="r2LabelC16R0" />
+                  <fx:reference source="r2LabelC17R0" />
+                  <fx:reference source="r2LabelC18R0" />
+                  <fx:reference source="r2LabelC19R0" />
+                  <fx:reference source="r2LabelC20R0" />
+                  <fx:reference source="r2LabelC21R0" />
+                  <fx:reference source="r2LabelC22R0" />
+                  <fx:reference source="r2LabelC23R0" />
+                  <fx:reference source="r2LabelC24R0" />
+                  <fx:reference source="r2LabelC25R0" />
+
+                  <fx:reference source="r2LabelC00R1" />
+                  <fx:reference source="r2LabelC01R1" />
+                  <fx:reference source="r2LabelC02R1" />
+                  <fx:reference source="r2LabelC03R1" />
+                  <fx:reference source="r2LabelC04R1" />
+                  <fx:reference source="r2LabelC05R1" />
+                  <fx:reference source="r2LabelC06R1" />
+                  <fx:reference source="r2LabelC07R1" />
+                  <fx:reference source="r2LabelC08R1" />
+                  <fx:reference source="r2LabelC09R1" />
+                  <fx:reference source="r2LabelC10R1" />
+                  <fx:reference source="r2LabelC11R1" />
+                  <fx:reference source="r2LabelC12R1" />
+                  <fx:reference source="r2LabelC13R1" />
+                  <fx:reference source="r2LabelC14R1" />
+                  <fx:reference source="r2LabelC15R1" />
+                  <fx:reference source="r2LabelC16R1" />
+                  <fx:reference source="r2LabelC17R1" />
+                  <fx:reference source="r2LabelC18R1" />
+                  <fx:reference source="r2LabelC19R1" />
+                  <fx:reference source="r2LabelC20R1" />
+                  <fx:reference source="r2LabelC21R1" />
+                  <fx:reference source="r2LabelC22R1" />
+                  <fx:reference source="r2LabelC23R1" />
+                  <fx:reference source="r2LabelC24R1" />
+                  <fx:reference source="r2LabelC25R1" />
+               </ArrayList>
+            </fx:define>
+
+         </children>
+      </GridPane>
+      <GridPane id="gridRotor3" fx:id="gridRotor3" gridLinesVisible="true" layoutX="27.0" layoutY="60.0" prefHeight="40.0" prefWidth="600.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="r3LabelC00R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC01R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC02R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC03R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC04R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC05R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC06R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC07R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC08R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC09R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC10R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC11R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC12R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC13R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC14R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC15R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC16R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC17R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC18R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC19R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="19" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC20R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="20" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC21R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="21" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC22R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="22" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC23R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="23" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC24R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="24" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC25R0" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="25" GridPane.rowIndex="0" />
+            <Label fx:id="r3LabelC00R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC01R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC02R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC03R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC04R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC05R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC06R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC07R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC08R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC09R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC10R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC11R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC12R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC13R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC14R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC15R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC16R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC17R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC18R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC19R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="19" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC20R1" alignment="CENTER" prefHeight="20.0" prefWidth="54.0" text="" textAlignment="CENTER" GridPane.columnIndex="20" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC21R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="21" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC22R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="22" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC23R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="23" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC24R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="24" GridPane.rowIndex="1" />
+            <Label fx:id="r3LabelC25R1" alignment="CENTER" prefHeight="26.0" prefWidth="23.0" text="" textAlignment="CENTER" GridPane.columnIndex="25" GridPane.rowIndex="1" />
+            <fx:define>
+               <ArrayList fx:id="rotor3List">
+                  <fx:reference source="r3LabelC00R0" />
+                  <fx:reference source="r3LabelC01R0" />
+                  <fx:reference source="r3LabelC02R0" />
+                  <fx:reference source="r3LabelC03R0" />
+                  <fx:reference source="r3LabelC04R0" />
+                  <fx:reference source="r3LabelC05R0" />
+                  <fx:reference source="r3LabelC06R0" />
+                  <fx:reference source="r3LabelC07R0" />
+                  <fx:reference source="r3LabelC08R0" />
+                  <fx:reference source="r3LabelC09R0" />
+                  <fx:reference source="r3LabelC10R0" />
+                  <fx:reference source="r3LabelC11R0" />
+                  <fx:reference source="r3LabelC12R0" />
+                  <fx:reference source="r3LabelC13R0" />
+                  <fx:reference source="r3LabelC14R0" />
+                  <fx:reference source="r3LabelC15R0" />
+                  <fx:reference source="r3LabelC16R0" />
+                  <fx:reference source="r3LabelC17R0" />
+                  <fx:reference source="r3LabelC18R0" />
+                  <fx:reference source="r3LabelC19R0" />
+                  <fx:reference source="r3LabelC20R0" />
+                  <fx:reference source="r3LabelC21R0" />
+                  <fx:reference source="r3LabelC22R0" />
+                  <fx:reference source="r3LabelC23R0" />
+                  <fx:reference source="r3LabelC24R0" />
+                  <fx:reference source="r3LabelC25R0" />
+
+                  <fx:reference source="r3LabelC00R1" />
+                  <fx:reference source="r3LabelC01R1" />
+                  <fx:reference source="r3LabelC02R1" />
+                  <fx:reference source="r3LabelC03R1" />
+                  <fx:reference source="r3LabelC04R1" />
+                  <fx:reference source="r3LabelC05R1" />
+                  <fx:reference source="r3LabelC06R1" />
+                  <fx:reference source="r3LabelC07R1" />
+                  <fx:reference source="r3LabelC08R1" />
+                  <fx:reference source="r3LabelC09R1" />
+                  <fx:reference source="r3LabelC10R1" />
+                  <fx:reference source="r3LabelC11R1" />
+                  <fx:reference source="r3LabelC12R1" />
+                  <fx:reference source="r3LabelC13R1" />
+                  <fx:reference source="r3LabelC14R1" />
+                  <fx:reference source="r3LabelC15R1" />
+                  <fx:reference source="r3LabelC16R1" />
+                  <fx:reference source="r3LabelC17R1" />
+                  <fx:reference source="r3LabelC18R1" />
+                  <fx:reference source="r3LabelC19R1" />
+                  <fx:reference source="r3LabelC20R1" />
+                  <fx:reference source="r3LabelC21R1" />
+                  <fx:reference source="r3LabelC22R1" />
+                  <fx:reference source="r3LabelC23R1" />
+                  <fx:reference source="r3LabelC24R1" />
+                  <fx:reference source="r3LabelC25R1" />
+               </ArrayList>
+            </fx:define>
+         </children>
+      </GridPane>
+      <Label fx:id="labelAlphabet" layoutX="651.0" layoutY="240.0" prefHeight="20.0" prefWidth="62.0" text="Alphabet">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelRotor1" layoutX="655.0" layoutY="190.0" prefHeight="20.0" prefWidth="54.0" text="Rotor 1">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <GridPane gridLinesVisible="true" layoutX="45.0" layoutY="291.0" prefHeight="132.0" prefWidth="394.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Direction" textAlignment="CENTER" GridPane.columnIndex="2" />
+            <Label alignment="CENTER" layoutX="206.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Ordre de passage" textAlignment="CENTER" GridPane.columnIndex="1" />
+            <Label alignment="CENTER" layoutX="108.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Décalage initial" textAlignment="CENTER" GridPane.columnIndex="3" />
+            <Label alignment="CENTER" layoutX="108.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Rotor 1" textAlignment="CENTER" GridPane.rowIndex="1" />
+            <Label alignment="CENTER" layoutX="10.0" layoutY="43.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Rotor 2" textAlignment="CENTER" GridPane.rowIndex="2" />
+            <Label alignment="CENTER" layoutX="10.0" layoutY="76.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Rotor 3" textAlignment="CENTER" GridPane.rowIndex="3" />
+            <ChoiceBox fx:id="rotor1OrdreChoicebox" prefHeight="25.0" prefWidth="43.0" value="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <ChoiceBox fx:id="rotor2OrdreChoicebox" layoutX="135.0" layoutY="47.0" prefHeight="25.0" prefWidth="43.0" value="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ChoiceBox fx:id="rotor3OrdreChoicebox" layoutX="135.0" layoutY="80.0" prefHeight="25.0" prefWidth="43.0" value="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <ChoiceBox fx:id="rotor1DirectionChoicebox" layoutX="135.0" layoutY="47.0" prefHeight="25.0" prefWidth="90.0" value="Droite" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <ChoiceBox fx:id="rotor2DirectionChoicebox" layoutX="211.0" layoutY="47.0" prefHeight="25.0" prefWidth="90.0" value="Droite" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ChoiceBox fx:id="rotor3DirectionChoicebox" layoutX="206.0" layoutY="80.0" prefHeight="25.0" prefWidth="90.0" value="Droite" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Spinner fx:id="rotor1DecalageSpinner" initialValue="0" max="25" min="-25" prefHeight="25.0" prefWidth="64.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Spinner fx:id="rotor2DecalageSpinner" initialValue="0" layoutX="305.0" layoutY="47.0" max="25" min="-25" prefHeight="25.0" prefWidth="64.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Spinner fx:id="rotor3DecalageSpinner" initialValue="0" layoutX="305.0" layoutY="47.0" max="25" min="-25" prefHeight="25.0" prefWidth="64.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+      <RadioButton fx:id="encrypterRadio" layoutX="100.0" layoutY="509.0" mnemonicParsing="false" selected="true" text="Encrypter" />
+      <RadioButton fx:id="decrypterRadio" layoutX="543.0" layoutY="509.0" mnemonicParsing="false" text="Decrypter" />
+      <Button fx:id="resetBtn" layoutX="469.0" layoutY="378.0" mnemonicParsing="false" onAction="#reinitialize" prefHeight="25.0" prefWidth="110.0" text="Recommencer" />
+      <Label fx:id="warningLabel" alignment="CENTER" layoutX="74.0" layoutY="613.0" prefHeight="26.0" prefWidth="552.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
